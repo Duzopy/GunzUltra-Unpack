@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<XMLHEADER>version="1.0" encoding="UTF-8"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+	
+	<DEFFONT>Arial</DEFFONT>
+	
+	<IME>false</IME>
+	
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz</DIR>
+	</BAREPORT>
+	
+	<!-- 신고 시스템
+	// BOUNDARY : 유일한 문자열
+	// upload : 업로드 요청
+	// enablecount : 신고 가능 횟수 조회 요청
+	// ddos : 디도스 신고 요청
+	// retry : 요청이 실패할 경우 재시도 횟수
+	// timeout : 신고 가능 횟수를 조회할 때, 연결이 지연될 경우 최대 대기 시간
+	// playtime : 신고용 리플레이가 기록되는 총 시간 (초단위로 기록)
+	// charinfo_interval : 신고용 리플레이를 저장하기 위해 캐릭터 정보를 기록하는 시간 간격 (초단위로 기록)
+	<REPORT>
+		<BOUNDARY>FFF3F395A90B452BB8BEDC878DDBD152</BOUNDARY>
+		<URL>gz1report.appspot.com</URL>
+		<TEST_URL>gz1report-test.appspot.com</TEST_URL>
+		<REQUEST upload="echo" enablecount="remain" ddos="etc" retry="3" />
+		<REPLAY playtime="180.0" charinfo_interval="10.0" />
+	</REPORT>
+	-->
+
+	<EMBLEM_URL>http://ufile.kaybo.com/file/gunz/clanmark</EMBLEM_URL>
+	
+	<!-- 캐쉬 충전 페이지 -->
+	<CASHSHOP_URL>http://gunz.kaybo.com/shop/items.html</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>http://gunz.kaybo.com/</URL>
+	    <TITLE>Kaybo</TITLE>
+	</HOMEPAGE>
+	
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="69.60.102.171" />
+	</LOCATORLIST>
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="69.60.102.173" />
+	</TLOCATORLIST>
+	
+	<!-- 공지사항 -->
+	<ANNOUNCEMENT_URL>http://st-gunz.kaybo.com/page/main/Announcement.xml</ANNOUNCEMENT_URL>
+</XML>

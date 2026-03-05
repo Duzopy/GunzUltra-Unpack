@@ -1,0 +1,6 @@
+[DEFAULT]
+BASEURL=http://gunz.kaybo.com/
+[InternetShortcut]
+URL=http://gunz.kaybo.com/
+IconFile=http://download.kaybo.com/site_icon.ico
+IconIndex=1

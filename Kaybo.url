@@ -1,0 +1,6 @@
+[DEFAULT]
+BASEURL=http://www.kaybo.com/
+[InternetShortcut]
+URL=http://www.kaybo.com/
+IconFile=http://www.kaybo.com/favicon.ico
+IconIndex=1

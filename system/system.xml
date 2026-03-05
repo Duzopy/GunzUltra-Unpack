@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<XMLHEADER>version="1.0" encoding="UTF-8"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+	
+	<DEFFONT>Arial</DEFFONT>
+	
+	<IME>false</IME>
+	
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>http://ufile.kaybo.com/file/gunz/clanmark</EMBLEM_URL>
+	
+	<!-- 캐쉬 충전 페이지 -->
+	<CASHSHOP_URL>http://gunz.kaybo.com</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>http://gunz.kaybo.com/</URL>
+	    <TITLE>Kaybo</TITLE>
+	</HOMEPAGE>
+	
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="200.35.144.211" />
+	</LOCATORLIST>
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="200.35.144.168" />
+	</TLOCATORLIST>
+	
+	<!-- 공지사항 -->
+	<ANNOUNCEMENT_URL>http://noble6express.tistory.com/attachment/cfile22.uf@166B073E4E4CA2B8270911.xml</ANNOUNCEMENT_URL>
+</XML>
